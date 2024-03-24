@@ -74,7 +74,7 @@
       ]
     },
     "/Users/viacheslavzolotarov/newSolidityProject/contracts/Payments.sol": {
-      "lastModificationDate": 1711226234142,
+      "lastModificationDate": 1711282616772,
       "contentHash": "f8fb12762dc2268d804131ee7e667abc",
       "sourceName": "contracts/Payments.sol",
       "solcConfig": {
@@ -143,6 +143,42 @@
       ],
       "artifacts": [
         "Shipping"
+      ]
+    },
+    "/Users/viacheslavzolotarov/newSolidityProject/contracts/Payments2.sol": {
+      "lastModificationDate": 1711284451255,
+      "contentHash": "1d03ede8af8ca662e6f616179052a82f",
+      "sourceName": "contracts/Payments2.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Payments2"
       ]
     }
   }
